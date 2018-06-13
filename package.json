@@ -1,6 +1,6 @@
 {
   "name": "react-native-awesome-card-io",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A complete and cross-platform React Native component for card.io",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kerumen/react-native-awesome-card-io"
+    "url": "https://github.com/cabelitos/react-native-awesome-card-io"
   },
   "keywords": [
     "react-native",

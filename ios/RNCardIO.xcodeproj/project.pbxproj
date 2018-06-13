@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAD04B9B1D6EE90F0059CD99 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD04B981D6EE90F0059CD99 /* libCardIO.a */; };
-		AAD04B9C1D6EE90F0059CD99 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD04B991D6EE90F0059CD99 /* libopencv_core.a */; };
-		AAD04B9D1D6EE90F0059CD99 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD04B9A1D6EE90F0059CD99 /* libopencv_imgproc.a */; };
+		72963A73204D5377B799031F /* libPods-RNCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0375C7CADF1489E07CDE8C98 /* libPods-RNCardIO.a */; };
 		AAD04BA01D6EE9C00059CD99 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD04B9F1D6EE9C00059CD99 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AAD04BA21D6EE9CA0059CD99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD04BA11D6EE9CA0059CD99 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AAD04BA41D6EE9D30059CD99 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD04BA31D6EE9D30059CD99 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -34,18 +32,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0375C7CADF1489E07CDE8C98 /* libPods-RNCardIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNCardIO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134814201AA4EA6300B7C361 /* libRNCardIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCardIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAD04B901D6EE90F0059CD99 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
-		AAD04B911D6EE90F0059CD99 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
-		AAD04B921D6EE90F0059CD99 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
-		AAD04B931D6EE90F0059CD99 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
-		AAD04B941D6EE90F0059CD99 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
-		AAD04B951D6EE90F0059CD99 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
-		AAD04B961D6EE90F0059CD99 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
-		AAD04B971D6EE90F0059CD99 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
-		AAD04B981D6EE90F0059CD99 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
-		AAD04B991D6EE90F0059CD99 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
-		AAD04B9A1D6EE90F0059CD99 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		54D12C2832A9BE92CB61CBA5 /* Pods-RNCardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNCardIO/Pods-RNCardIO.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD04B9F1D6EE9C00059CD99 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		AAD04BA11D6EE9CA0059CD99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AAD04BA31D6EE9D30059CD99 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -59,6 +48,7 @@
 		AAD04C581D6F4EFA0059CD99 /* RCTConvert+CardIODetectionMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+CardIODetectionMode.m"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RCTCardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCardIOView.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RCTCardIOView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCardIOView.m; sourceTree = "<group>"; };
+		E37249819E162A62EFA6EDD7 /* Pods-RNCardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNCardIO/Pods-RNCardIO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +61,7 @@
 				AAD04BA41D6EE9D30059CD99 /* AudioToolbox.framework in Frameworks */,
 				AAD04BA61D6EE9DE0059CD99 /* CoreMedia.framework in Frameworks */,
 				AAD04BA81D6EE9F90059CD99 /* MobileCoreServices.framework in Frameworks */,
-				AAD04B9B1D6EE90F0059CD99 /* libCardIO.a in Frameworks */,
-				AAD04B9C1D6EE90F0059CD99 /* libopencv_core.a in Frameworks */,
-				AAD04B9D1D6EE90F0059CD99 /* libopencv_imgproc.a in Frameworks */,
+				72963A73204D5377B799031F /* libPods-RNCardIO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,27 +85,18 @@
 				AAD04BA11D6EE9CA0059CD99 /* AVFoundation.framework */,
 				AAD04B9F1D6EE9C00059CD99 /* Accelerate.framework */,
 				AAD04B9E1D6EE91D0059CD99 /* RNCardIO */,
-				AAD04B8F1D6EE90F0059CD99 /* CardIO */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				ABAB4AC696B439A17823FF53 /* Pods */,
+				7AF9F5B35C75F1606B130ECC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		AAD04B8F1D6EE90F0059CD99 /* CardIO */ = {
+		7AF9F5B35C75F1606B130ECC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AAD04B901D6EE90F0059CD99 /* CardIO.h */,
-				AAD04B911D6EE90F0059CD99 /* CardIOCreditCardInfo.h */,
-				AAD04B921D6EE90F0059CD99 /* CardIODetectionMode.h */,
-				AAD04B931D6EE90F0059CD99 /* CardIOPaymentViewController.h */,
-				AAD04B941D6EE90F0059CD99 /* CardIOPaymentViewControllerDelegate.h */,
-				AAD04B951D6EE90F0059CD99 /* CardIOUtilities.h */,
-				AAD04B961D6EE90F0059CD99 /* CardIOView.h */,
-				AAD04B971D6EE90F0059CD99 /* CardIOViewDelegate.h */,
-				AAD04B981D6EE90F0059CD99 /* libCardIO.a */,
-				AAD04B991D6EE90F0059CD99 /* libopencv_core.a */,
-				AAD04B9A1D6EE90F0059CD99 /* libopencv_imgproc.a */,
+				0375C7CADF1489E07CDE8C98 /* libPods-RNCardIO.a */,
 			);
-			path = CardIO;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AAD04B9E1D6EE91D0059CD99 /* RNCardIO */ = {
@@ -135,6 +114,15 @@
 			name = RNCardIO;
 			sourceTree = "<group>";
 		};
+		ABAB4AC696B439A17823FF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D12C2832A9BE92CB61CBA5 /* Pods-RNCardIO.debug.xcconfig */,
+				E37249819E162A62EFA6EDD7 /* Pods-RNCardIO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +130,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCardIO" */;
 			buildPhases = (
+				F0C89D051BCD5697942F1F16 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -185,6 +174,27 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0C89D051BCD5697942F1F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNCardIO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -280,6 +290,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D12C2832A9BE92CB61CBA5 /* Pods-RNCardIO.debug.xcconfig */;
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,6 +307,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37249819E162A62EFA6EDD7 /* Pods-RNCardIO.release.xcconfig */;
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
